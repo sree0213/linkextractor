@@ -1,0 +1,23 @@
+https://ws-dl.blogspot.com/2017/12/2017-12-03-introducing-docker.html
+https://training.play-with-docker.com/microservice-orchestration/
+https://training.play-with-docker.com/
+
+CMD:ENTRYPOINT:
+introducinghttps://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+RUN for on top of image like apt get
+ENTRY POINT - always run exec docker [""]
+CMD for default or override
+
+ENTRYPOINT ["/bin/echo", Hello]
+CMD ["world"]
+
+docker run -it <image> John
+Hello John
+
+
+FROM
+LABEL maintainer: "Ram"
+WORKDIR /app
+COPY
+run
+cmd
